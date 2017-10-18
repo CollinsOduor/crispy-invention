@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class Solution {
@@ -26,13 +25,9 @@ public class Solution {
                 p_free.add(i);
             }
         }
-        /*for(Integer element:p_free){
-            System.out.print(element+" ");
-        }*/
         System.out.println(p_free.size());
     }
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Solution solve=new Solution();
         solve.powerFree(solve.getN(), solve.getK());
     }
